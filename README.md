@@ -1,13 +1,13 @@
-Instagram Clone (Swift)
+# Instagram Clone (Swift)
 
 This is an Instagram app cloning project, developed as part of the course taught by Jamilton Damasceno on Udemy. The goal of this project is to practice and enhance my skills in mobile app development, using technologies such as Swift and UIKit.
 
-Features:
-- User authentication
-- Post feed
-- Photo sharing
+# Features:
+- [x] User authentication
+- [x] Post feed
+- [x] Photo sharing
 
-Technologies Used:
-- Swift
-- UIKit
-- Firebase (for authentication and data storage)
+# Technologies Used:
+- [x] Swift
+- [x] UIKit
+- [x] Firebase (for authentication and data storage)
