@@ -45,7 +45,7 @@ class LoginViewController: UIViewController {
                     let alertErro = Alert(tittle: "Create your account", message: "You need to create your account first.")
                     self.present(alertErro.getAlert(), animated: true)
                 }else{
-                    //self.performSegue(withIdentifier: Constants.segueLogin, sender: nil)
+                    self.performSegue(withIdentifier: Constants.segueLogin, sender: nil)
                     print("Log in done")
                 }
             }

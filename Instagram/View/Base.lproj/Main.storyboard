@@ -330,11 +330,12 @@
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KhC-8J-yee">
                                             <rect key="frame" x="8" y="8" width="152" height="155"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="155" id="O8E-CE-WU6"/>
+                                                <constraint firstAttribute="height" constant="155" id="UTr-KD-PtL"/>
+                                                <constraint firstAttribute="width" constant="152" id="ufi-oh-n5G"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Descrição..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57g-EC-ykn">
-                                            <rect key="frame" x="8" y="171" width="152" height="30"/>
+                                            <rect key="frame" x="8" y="171" width="152" height="29"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="KpT-V4-hzb"/>
                                             </constraints>
@@ -344,15 +345,14 @@
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="trailing" secondItem="57g-EC-ykn" secondAttribute="trailing" constant="8" id="30w-AL-Zz4"/>
-                                        <constraint firstItem="KhC-8J-yee" firstAttribute="top" secondItem="xSb-Pd-Eu7" secondAttribute="top" constant="8" id="ApA-hL-5gb"/>
-                                        <constraint firstAttribute="bottom" secondItem="57g-EC-ykn" secondAttribute="bottom" id="B6M-m4-W4c"/>
-                                        <constraint firstItem="KhC-8J-yee" firstAttribute="leading" secondItem="xSb-Pd-Eu7" secondAttribute="leading" constant="8" id="X4j-gk-Dsd"/>
-                                        <constraint firstAttribute="trailing" secondItem="KhC-8J-yee" secondAttribute="trailing" constant="8" id="drl-Va-eno"/>
-                                        <constraint firstItem="57g-EC-ykn" firstAttribute="top" secondItem="KhC-8J-yee" secondAttribute="bottom" constant="8" symbolic="YES" id="e0T-jC-K8E"/>
-                                        <constraint firstItem="57g-EC-ykn" firstAttribute="top" secondItem="KhC-8J-yee" secondAttribute="bottom" constant="8" symbolic="YES" id="mmX-bu-BLa"/>
-                                        <constraint firstItem="KhC-8J-yee" firstAttribute="top" secondItem="xSb-Pd-Eu7" secondAttribute="top" constant="8" id="nRH-U4-z1w"/>
-                                        <constraint firstItem="57g-EC-ykn" firstAttribute="leading" secondItem="xSb-Pd-Eu7" secondAttribute="leading" constant="8" id="pcE-cV-Mfk"/>
+                                        <constraint firstItem="KhC-8J-yee" firstAttribute="leading" secondItem="xSb-Pd-Eu7" secondAttribute="leading" constant="8" id="7Wn-y1-3FJ"/>
+                                        <constraint firstItem="57g-EC-ykn" firstAttribute="top" secondItem="KhC-8J-yee" secondAttribute="bottom" constant="8" symbolic="YES" id="CHI-3T-VIN"/>
+                                        <constraint firstAttribute="trailing" secondItem="57g-EC-ykn" secondAttribute="trailing" constant="8" id="F9r-RB-mL7"/>
+                                        <constraint firstItem="57g-EC-ykn" firstAttribute="top" secondItem="KhC-8J-yee" secondAttribute="bottom" constant="8" symbolic="YES" id="KuS-19-Thb"/>
+                                        <constraint firstItem="KhC-8J-yee" firstAttribute="top" secondItem="xSb-Pd-Eu7" secondAttribute="top" constant="8" id="aYu-1h-Vgg"/>
+                                        <constraint firstAttribute="trailing" secondItem="KhC-8J-yee" secondAttribute="trailing" constant="8" id="gKI-1Z-yya"/>
+                                        <constraint firstAttribute="bottom" secondItem="57g-EC-ykn" secondAttribute="bottom" constant="1" id="q9d-lh-fse"/>
+                                        <constraint firstItem="57g-EC-ykn" firstAttribute="leading" secondItem="xSb-Pd-Eu7" secondAttribute="leading" constant="8" id="zzb-k3-GAL"/>
                                     </constraints>
                                 </collectionViewCellContentView>
                                 <size key="customSize" width="168" height="201"/>
