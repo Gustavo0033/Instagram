@@ -22,6 +22,7 @@ class LoginViewController: UIViewController {
         
         auth = Auth.auth()
         
+        /*
         //MARK: - automatic log in
         auth.addStateDidChangeListener { auth, user in
             if user != nil{
@@ -30,6 +31,7 @@ class LoginViewController: UIViewController {
                 print("Erro")
             }
         }
+         */
     }
     
     
