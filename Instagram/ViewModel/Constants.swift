@@ -10,7 +10,16 @@ import Foundation
 struct Constants{
 
         static let segueLogin = "segueLogin"
-        let segueSignUp = "segueSignUp"
+        static let segueSignUp = "segueSignUp"
     
-
+    struct identifers{
+        static let cellPost = "cellPost"
+        static let userCell = "usersCell"
+        static let galeryCollection = "galeryCell"
+        static let segueGalery = "segueGalery"
+    }
+    
+    struct images{
+        static let imageTest = "padrao"
+    }
 }

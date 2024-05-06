@@ -1,0 +1,68 @@
+PODS:
+  - FirebaseAppCheckInterop (10.22.0)
+  - FirebaseAuthInterop (10.22.0)
+  - FirebaseCore (10.22.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreExtension (10.22.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.23.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseStorage (10.22.0):
+    - FirebaseAppCheckInterop (~> 10.0)
+    - FirebaseAuthInterop (~> 10.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseCoreExtension (~> 10.0)
+    - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FirebaseStorageUI (13.1.0):
+    - FirebaseStorage (< 11.0, >= 8.0)
+    - SDWebImage (~> 5.6)
+  - GoogleUtilities/Environment (7.13.0):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - "GoogleUtilities/NSData+zlib (7.13.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.0)
+  - GTMSessionFetcher/Core (3.3.1)
+  - PromisesObjC (2.4.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+
+DEPENDENCIES:
+  - FirebaseStorageUI
+
+SPEC REPOS:
+  trunk:
+    - FirebaseAppCheckInterop
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseStorage
+    - FirebaseStorageUI
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - PromisesObjC
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  FirebaseAppCheckInterop: 58db3e9494751399cf3e7b7e3e705cff71099153
+  FirebaseAuthInterop: fa6a29d88cf7d5649cf6f4284918a8b7627e98a9
+  FirebaseCore: 0326ec9b05fbed8f8716cddbf0e36894a13837f7
+  FirebaseCoreExtension: 6394c00b887d0bebadbc7049c464aa0cbddc5d41
+  FirebaseCoreInternal: 6a292e6f0bece1243a737e81556e56e5e19282e3
+  FirebaseStorage: bc7bddc743548a89cfb896843a77cf4bdde2c231
+  FirebaseStorageUI: 5db14fc4c251fdbe3b706eb1a9dddc55bc51b414
+  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
+  GTMSessionFetcher: 8a1b34ad97ebe6f909fb8b9b77fba99943007556
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+
+PODFILE CHECKSUM: f4dda635b7309a82786fefb5b0f938595f93b5ad
+
+COCOAPODS: 1.15.2
