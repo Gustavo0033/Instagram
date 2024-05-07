@@ -11,3 +11,6 @@ This is an Instagram app cloning project, developed as part of the course taught
 - [x] Swift
 - [x] UIKit
 - [x] Firebase (for authentication and data storage)
+
+# Idea from:
+- Link: https://www.udemy.com/course/curso-desenvolvimento-ios/?couponCode=KEEPLEARNING
