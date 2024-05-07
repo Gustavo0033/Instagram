@@ -15,8 +15,6 @@ class GaleryCollectionViewController: UICollectionViewController {
     var firestore: Firestore!
     var idUserSelected: String!
     var posts: [Dictionary<String, Any>] = []
-
-    
     var users: Dictionary<String, Any>!
 
     override func viewDidLoad() {
@@ -31,12 +29,14 @@ class GaleryCollectionViewController: UICollectionViewController {
     override func viewDidAppear(_ animated: Bool) {
         recoverPosts()
     }
+    
 
+    //MARK: - Recovering posts from the user
     func recoverPosts(){
         self.posts.removeAll()
         self.collectionView.reloadData()
         
-        //recuperando posts do firebase
+        //recovering posts from the Firebase
         firestore.collection("users").document(idUserSelected).collection("posts").getDocuments { snapshotResult, error in
             if let snapshot = snapshotResult{
                 for document in snapshot.documents{
@@ -47,12 +47,15 @@ class GaleryCollectionViewController: UICollectionViewController {
             }
         }
     }
-
+    
+    //MARK: - set in the number of lines on the TableView
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
         return self.posts.count
     }
 
+    
+    //MARK: - setting the image and label on TableView and showing.
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Constants.identifers.galeryCollection, for: indexPath) as! GaleryCollectionViewCell
         
@@ -70,6 +73,8 @@ class GaleryCollectionViewController: UICollectionViewController {
     
         return cell
     }
+    
+    
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.tabBar.isHidden = true
     }

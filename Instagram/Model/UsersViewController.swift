@@ -44,9 +44,12 @@ class UsersViewController: UIViewController, UISearchBarDelegate {
         if let searchText = searchBar.text{
             if searchText != ""{
                 searchUsers(text: searchText)
+                searchBar.endEditing(true)
             }
         }
     }
+
+    
     
     //MARK: - bring the users if the textfield from the searchBar is empty
 
