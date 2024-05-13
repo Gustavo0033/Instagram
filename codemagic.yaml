@@ -7,4 +7,4 @@ workflows:
     publishing:
         email:
             recipients:
-                gu2003.mendonca48@gmail.com
+                - gu2003.mendonca48@gmail.com
