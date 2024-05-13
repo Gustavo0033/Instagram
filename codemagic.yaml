@@ -1,3 +1,11 @@
-git add codemagic.yaml
-git commit -m 'Instagram'
-git push
+workflows:
+  ToDo-workflow:
+    name: ToDo Pipiline
+    scripts:
+     -  name: CICD Started
+        script: echo "Welcome to your CICD set up"
+    - name: Build To_do
+    publishing:
+        email:
+            recipients:
+                gu2003.mendonca48@gmail.com
